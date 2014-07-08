@@ -1,0 +1,13 @@
+<body>
+{{>hello}}
+</body>
+
+<template name="hello">
+    <button class="red">red</button>
+    <div>reds and greens:</div>
+    <div class="container">
+    {{#each reds_and_greens}}
+        <div>{{_id}}</div>
+    {{/each}}
+    </div>
+</template>
