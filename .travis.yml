@@ -4,14 +4,8 @@ node_js:
   
 before_install:
   - "curl -L http://git.io/ejPSng | /bin/sh"
-  
-git clone https://github.com/meteor/meteor.git ~/meteor
-export PATH=~/meteor/:$PATH
-npm install -g velocity-ci
-npm install -g meteorite
-mrt install velocity
-mrt install mocha-web-velocity
-mrt install velocity-html-reporter
-mrt install moment
 
-velocity
+npm install -g velocity-ci
+mrt install 
+
+script: velocity
