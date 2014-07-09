@@ -3,11 +3,11 @@ node_js:
   - "0.10"
 
 install:
-  - git clone https://github.com/meteor/meteor.git ~/meteor
-  - export PATH=~/meteor/:$PATH
+  - "git clone https://github.com/meteor/meteor.git ~/meteor"
+  - "export PATH=~/meteor/:$PATH"
 
-  - npm install -g velocity-ci
-  - npm install -g meteorite
-  - mrt update
+  - "npm install -g velocity-ci"
+  - "npm install -g meteorite"
+  - "mrt update"
 
 script: velocity
