@@ -1,8 +1,5 @@
 {
   "packages": {
-    "velocity": {},
-    "mocha-web-velocity": {},
-    "velocity-html-reporter": {},
-    "moment": {}
+    
   }
 }
