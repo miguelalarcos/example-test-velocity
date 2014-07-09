@@ -1,4 +1,6 @@
 {
+  "testPackage": true,
+  "regex":"*.coffee",
   "packages": {
     "velocity": {},
     "mocha-web-velocity": {},
